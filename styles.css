@@ -1,9 +1,64 @@
 body {
-    font-family: sans-serif;
+	font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
 }
 
-header, footer {
-    background-color: #1f2937;
-    color: #fff;
-    padding: 20px;
+header,
+footer {
+	background-color: #1f2937;
+	color: #fff;
+	padding: 20px;
+}
+
+.hero {
+	font-size: 48px;
+	font-weight: 900;
+	color: #f9faf8;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li a, .hero-secondary {
+    
+    text-decoration: none;
+	font-size: 18px;
+	color: #e5e7eb;
+}
+
+h1 {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+button, article {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 5px;
+    padding: 5px 20px;
+    border: none;
+}
+
+article button {
+    border: 1px solid #f9faf8;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+section {
+    background-color: #E5E7EB;
+}
+
+h3 {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
 }
