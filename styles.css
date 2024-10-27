@@ -88,6 +88,21 @@ nav ul li a {
 	font-size: 18px;
 }
 
+.features-section li {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 1rem;
+}
+
+.feature-box {
+	width: 160px;
+	height: 160px;
+	border: 4px solid #3882f6;
+	border-radius: 15px;
+	margin-bottom: 0.5rem;
+}
+
 .quote-section {
 	background-color: #e5e7eb;
 	padding: 6rem 10%;
